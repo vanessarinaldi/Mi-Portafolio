@@ -1,0 +1,108 @@
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-style: oblique;
+    color: transparent;
+    -webkit-text-stroke: 1px #e26f6f ;
+}
+.logo img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-style:double;
+    border-color: grey;
+    border-radius: 100%;
+}
+body{
+    background-image: url(34.jpg);
+    background-size:contain;
+}
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #ce5353;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+ #navegador li a:hover{
+    background-color: #e26f6f;
+    color: #ffffff;
+ }
+ h2{
+    text-align:center;
+    color: transparent;
+    -webkit-text-stroke: 1px #e26f6f ;
+    background: linear-gradient( rgb(80, 5, 5),rgb(80, 27, 80));
+    color:rgb(207, 71, 71);
+    background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+}
+@keyframes text{
+    0% {
+    filter:hue-rotate(0deg);
+ }
+ 100%{
+    filter:hue-rotate(360deg);
+ }
+
+ }
+ h3{
+    text-align:center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(201, 133, 133);
+    border-style:groove;
+    color:#5f5858;
+    font-family: fantasy;
+
+ }
+ h4{
+    margin-left: 350px;
+    font-family:sans-serif;
+    color: #5f5858;
+ }
+ 
+ #contacto img{
+    float:inline-start;
+    width: 45px;
+    height: 40px;
+    border-style:outset;
+    border-color: rgb(207, 71, 71);
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 250px; 
+ }
+ #contacto p {
+    color:#cf1212;
+    margin-left: 250px;
+ }
+ 
+ #cv li {
+    color: rgba(10, 9, 9, 0.897);
+    margin-left: 350px;
+    list-style-type:circle;
+  }
+  #sobremi p{
+    text-align: center;
+  }
+ #cv p{
+    margin-left: 350px;
+ }
+ .saludo {
+   color:#cf1212;
+ }
+ .texto {
+   text-align: justify;
+   color: #5f5858;
+ }
