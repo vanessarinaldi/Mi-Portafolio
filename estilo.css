@@ -92,7 +92,7 @@ body{
     border-style:outset;
     border-color: rgb(207, 71, 71);
     border-radius: 100%;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-right: 1%;
  }
  #contacto p {
@@ -121,7 +121,7 @@ body{
  }
 
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (max-width: 1024px) {
    .logo-container img {
        max-width: 20%;
    }
