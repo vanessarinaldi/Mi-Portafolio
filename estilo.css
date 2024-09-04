@@ -119,4 +119,49 @@ body{
    text-align: justify;
    color: #5f5858;
  }
- 
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+   .logo-container img {
+       max-width: 20%;
+   }
+   h3 {
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+   #cv p, #cv li {
+       margin-left: 20%;
+   }
+}
+
+
+@media (max-width: 767px) {
+   body {
+       background-size: cover; 
+   }
+
+   .logo-container img {
+       max-width: 40%;
+   }
+
+   h1, h2, h3 {
+       font-size: 1.2rem; /
+   }
+
+   #contacto img {
+       margin-left: 0;
+       margin-right: 0;
+       margin-bottom: 10px;
+       width: 30px;
+       height: 30px;
+   }
+
+   #contacto p {
+       margin-left: 0;
+       text-align: center; 
+   }
+
+   #cv p, #cv li {
+       margin-left: 10%;
+   }
+}
