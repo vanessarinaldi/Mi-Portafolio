@@ -5,14 +5,20 @@ h1{
     color: transparent;
     -webkit-text-stroke: 1px #e26f6f ;
 }
-.logo img{
-    text-align: center;
-    width: 150px;
-    height: 150px;
+.logo-container {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   line-height: 50vh;
+}
+.logo-container img{
+    max-width: 150px;
+    height: auto;
     border-style:double;
     border-color: grey;
     border-radius: 100%;
 }
+
 body{
     background-image: url(34.jpg);
     background-size:contain;
@@ -106,3 +112,4 @@ body{
    text-align: justify;
    color: #5f5858;
  }
+ 
