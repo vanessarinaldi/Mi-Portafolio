@@ -12,7 +12,7 @@ h1{
    line-height: 50vh;
 }
 .logo-container img{
-    max-width: 150px;
+    max-width: 15%;
     height: auto;
     border-style:double;
     border-color: grey;
@@ -65,8 +65,8 @@ body{
  }
  h3{
     text-align:center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: rgb(201, 133, 133);
     border-style:groove;
     color:#5f5858;
@@ -74,11 +74,17 @@ body{
 
  }
  h4{
-    margin-left: 350px;
+    margin-left: 35%;
     font-family:sans-serif;
     color: #5f5858;
  }
- 
+ #contacto {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+}
  #contacto img{
     float:inline-start;
     width: 45px;
@@ -86,24 +92,25 @@ body{
     border-style:outset;
     border-color: rgb(207, 71, 71);
     border-radius: 100%;
-    margin-right: 10px;
-    margin-left: 250px; 
+    margin-left: 25%;
+    margin-right: 1%;
  }
  #contacto p {
+    text-align: justify;
     color:#cf1212;
-    margin-left: 250px;
+    margin-left: 25%;
  }
  
  #cv li {
     color: rgba(10, 9, 9, 0.897);
-    margin-left: 350px;
+    margin-left: 35%;
     list-style-type:circle;
   }
   #sobremi p{
     text-align: center;
   }
  #cv p{
-    margin-left: 350px;
+    margin-left: 35%;
  }
  .saludo {
    color:#cf1212;
